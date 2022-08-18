@@ -1,0 +1,46 @@
+body{
+    background-color: beige;
+}
+
+#main{
+    text-align: center;
+    background: linear-gradient(#36d1dc 0%, #ffc371 100%);
+    margin: 3px;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+#bio{
+    color: brown;
+    font-size: 18px;
+    background: radial-gradient(farthest-side at 47%, aquamarine 40%, pink 30%);
+}
+
+img{
+    border-radius: 360px;
+}
+
+.menu{
+    z-index: 10;
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.insidemenu{
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#Writings a{
+    font-size: 22px;
+    color: saddlebrown;
+}
